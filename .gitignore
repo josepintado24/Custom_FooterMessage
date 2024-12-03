@@ -6,5 +6,6 @@
 
 # Ignorar archivos generados que no deben ser subidos al repositorio
 !.gitignore
+!README.md
 !composer.json
 !composer.lock
