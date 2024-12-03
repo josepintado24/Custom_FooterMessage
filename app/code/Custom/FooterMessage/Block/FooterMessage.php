@@ -35,7 +35,7 @@ class FooterMessage extends Template
      */
     public function getFooterMessage(): string
     {
-        $message = $this->_scopeConfig->getValue('custom_footer/message', \Magento\Store\Model\ScopeInterface::SCOPE_STORE);
+        $message = $this->_scopeConfig->getValue('custom_footer_message/general/footer_message', \Magento\Store\Model\ScopeInterface::SCOPE_STORE);
         return $message ?? '';
     }
 }
