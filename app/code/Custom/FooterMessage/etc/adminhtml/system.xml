@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Config/etc/system_file.xsd">
+    <system>
+        <section id="custom_footer_message" translate="label" sortOrder="90" showInDefault="1" showInWebsite="1" showInStore="1">
+            <label>Footer Message Configuration</label>
+            <tab>general</tab>
+            <resource>Custom_FooterMessage::config</resource>
+            <group id="general" translate="label" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+                <label>General Settings</label>
+                <field id="footer_message" translate="label" type="textarea" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <validate>required-entry</validate>
+                    <label>Footer Message</label>
+                </field>
+            </group>
+        </section>
+    </system>
+</config>

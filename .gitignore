@@ -1,0 +1,10 @@
+# Ignorar todo
+/*
+
+# Excluir las carpetas necesarias para el módulo
+!app/
+
+# Ignorar archivos generados que no deben ser subidos al repositorio
+!.gitignore
+!composer.json
+!composer.lock

@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Config/etc/config.xsd">
+    <default>
+        <custom_footer_message>
+            <general>
+                <footer_message>Mensaje por defecto.</footer_message>
+            </general>
+        </custom_footer_message>
+    </default>
+</config>

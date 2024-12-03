@@ -1,0 +1,5 @@
+<div class="custom-footer-message">
+    <?php if (trim($block->getFooterMessage())): ?>
+        <p><?= $block->escapeHtml($block->getFooterMessage()) ?></p>
+    <?php endif; ?>
+</div>
